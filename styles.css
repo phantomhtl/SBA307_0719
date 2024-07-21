@@ -1,0 +1,120 @@
+body {
+  text-align: center;
+}
+#newRelease {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIVfZAYVcXmQ-1ce2upHddyCUJvkneuqqaWA&s");
+}
+.navBar {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(255, 215, 0);
+}
+.siteName {
+  width: 150px;
+}
+#navContainer {
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  line-height: normal;
+}
+li {
+  font-weight: 600;
+  align-items: center;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+li {
+  /* text-align: center; */
+  transition: all 0.3s;
+}
+li:hover {
+  scale: 1.1;
+  text-decoration: underline;
+}
+
+.textContainer {
+  color: black;
+  margin: 20px;
+}
+.newRelease{
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1516641051054-9df6a1aad654?fm=jpg&w=3000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bGVnb3xlbnwwfHwwfHx8MA%3D%3D");
+}
+
+/* body {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIVfZAYVcXmQ-1ce2upHddyCUJvkneuqqaWA&s");
+} */
+
+/* @media (max-width: 450px) {
+  body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuzXIkohAW779HPcQ_DnoL1oTphcDEBshosQ&s");
+  }
+  .textContainer {
+    color: white;
+    font-size: 20px;
+  }
+  body {
+    background-color: black;
+  }
+} */
+
+.imgContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.image {
+  margin: 20px;
+  border: 4px solid slategray;
+  width: 20%;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+  transition: all 0.5s;
+  background-color: white;
+}
+
+.image:hover {
+  scale: 1.1;
+}
+
+form {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: rgb(255, 215, 0);
+  width: 30%;
+  display: inline-block;
+}
+
+.table1{
+  font-size: large;
+  font-weight: 500;
+}
+
+td{
+  transition: all 0.8s;
+}
+td:hover{
+  color: white;
+  scale: 1.4;
+}
